@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>一点青灯</title>
+<style>
+  body {
+    margin: 0;
+    font-family: "Helvetica", "Arial", sans-serif;
+    background: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+  }
+  header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    background: #34495e;
+  }
+  nav a {
+    color: #ecf0f1;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: block;
+  }
+  nav a:hover {
+    background: #3d566e;
+  }
+  section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  h2 {
+    color: #2c3e50;
+  }
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: #ecf0f1;
+  }
+  .gatha {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>一点青灯</h1>
+  <p>禅宗偈颂，心灯相传</p>
+</header>
+<nav>
+  <a href="#home">首页</a>
+  <a href="#gatha">偈颂</a>
+  <a href="#stories">禅宗故事</a>
+  <a href="#master">法师</a>
+</nav>
+<section id="home">
+  <h2>网站简介</h2>
+  <p>"一点青灯"致力于分享禅宗偈颂与智慧，如同微光照亮修行之路。</p>
+  <p>传说佛陀在灵山会上拈花示众，迦叶尊者会心微笑，便得到佛陀默许，此即禅宗“以心传心”的象征。</p>
+</section>
+<section id="gatha">
+  <h2>偈颂精选</h2>
+  <div class="gatha">
+    <p>常智法师曾诠释佛教赞偈，引领学僧体会佛曲内涵。</p>
+    <p>偈曰：<br>空中明月皎，静夜一灯青。<br>心随妙音悟，处处现真情。</p>
+  </div>
+</section>
+<section id="stories">
+  <h2>禅宗故事</h2>
+  <p>佛陀拈花微笑的典故流传至今，象征着心印相传。迦叶尊者当时领会其中妙意，成为禅宗初祖。</p>
+</section>
+<section id="master">
+  <h2>法师介绍</h2>
+  <p>常智法师致力于佛教艺术与教育，他在舞台剧编写、佛教赞偈诠释等方面颇有贡献，带领学僧深入体验佛曲内涵。</p>
+</section>
+<footer>
+  <p>Copyright &copy; 2024 一点青灯</p>
+</footer>
+<script>
+  document.querySelectorAll('nav a').forEach(function(anchor){
+    anchor.addEventListener('click', function(e){
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({behavior: 'smooth'});
+    });
+  });
+</script>
+</body>
+</html>
