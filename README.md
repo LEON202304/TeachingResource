@@ -1,0 +1,3 @@
+《学打匹克球》教材 https://pickleballcn.com/books/learning-pickleball/
+<img width="757" height="516" alt="image" src="https://github.com/user-attachments/assets/8fbd1113-d811-428a-8e8a-57786903c288" />
+电子版教材 https://github.com/yeasy/learning_pickleball/releases/tag/v2.11.0
